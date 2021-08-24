@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 64, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 50.674 sec <<< FAILURE!
+And response has error if parameter count is more than maximum length defined(Scenario: Return the satellite data for more than ten timestamps)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: The timestamps inputs more than 10 are not allowed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefination.Position.test_028_http_response_has_error(Position.java:363)
+	at ?.And response has error if parameter count is more than maximum length defined(positions.feature:102)
+
+Scenario: Return the satellite data for more than ten timestamps  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: The timestamps inputs more than 10 are not allowed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefination.Position.test_028_http_response_has_error(Position.java:363)
+	at ?.And response has error if parameter count is more than maximum length defined(positions.feature:102)
+

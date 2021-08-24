@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="64" failures="2" name="testRunner.TestRunner" time="0.025" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vinod_rane\eclipse-workspace_new\RestApiTestingFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vinod_rane\eclipse-workspace_new\RestApiTestingFramework"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VINOD_~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Nuance\Common\x86\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\openjdk11.0.9\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\poc\dir_1\dir_2\dir_3;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\vinod_rane\AppData\Local\Programs\Python\Python38;C:\Users\vinod_rane\AppData\Local\Programs\Python\Python38\Scripts\;C:\Dwimperl\perl\bin;C:\Dwimperl\perl\site\bin;C:\Dwimperl\c\bin;C:\MyPerlWorkSpace;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Perforce\;C:\Program Files (x86)\apache-maven-3.6.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\apache-jmeter-5.3\bin;C:\Program Files\Git\cmd;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;;C:\Users\vinod_rane\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files (x86)\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files (x86)\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\vinod_rane"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vinod_rane"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="Given a base uri" time="0.002"/>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="When a get request is sent to the API with following parameters" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="Then API returns a response with response code 200" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="And response content-type is &apos;application/json&apos;" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="And response array contains object with following values" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit." name="Scenario: Return the satellite information as default unit." time="0.001"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is kilometers." name="When a get request is sent to the API with the requested unit is kilometers" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is kilometers." name="Then API returns a HTTP response with response code 200" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is kilometers." name="And response content-type is listed as &apos;application/json&apos;" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is kilometers." name="And response array contains satellite details" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is kilometers." name="Scenario: Return the satellite data when the requested unit is kilometers." time="0.001"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is miles." name="When a get request is sent to the API with the requested unit is miles" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is miles." name="Then API returns response with response code 200" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is miles." name="And response has content-type as &apos;application/json&apos;" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is miles." name="And response array contains detailed satellite information" time="0"/>
+  <testcase classname="Scenario: Return the satellite data when the requested unit is miles." name="Scenario: Return the satellite data when the requested unit is miles." time="0.001"/>
+  <testcase classname="Scenario: Return the satellite data for multiple timestamps." name="When a get request is sent to the API with multiple timestamps" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for multiple timestamps." name="Then API returns response 200" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for multiple timestamps." name="And response has content-type &apos;application/json&apos;" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for multiple timestamps." name="And response array contains satellite information for two timestamps" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for multiple timestamps." name="Scenario: Return the satellite data for multiple timestamps." time="0.001"/>
+  <testcase classname="Scenario: Return HTTP error 400 if timestamp is not found." name="When a get request is sent to the API with invalid timestamps" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 400 if timestamp is not found." name="Then API returns HTTP response code 400" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 400 if timestamp is not found." name="Scenario: Return HTTP error 400 if timestamp is not found." time="0"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="When a get request is sent to the API with invalid id" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="Then API returns HTTP error code 404" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="Scenario: Return HTTP error 404 if id is not found." time="0.001"/>
+  <testcase classname="Scenario: Return the satellite information as default unit when invalid unit is provided." name="When a get request is sent to the API with invalid unit" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit when invalid unit is provided." name="Then API returns a response code 200" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit when invalid unit is provided." name="And response array contains object with units kilometers" time="0"/>
+  <testcase classname="Scenario: Return the satellite information as default unit when invalid unit is provided." name="Scenario: Return the satellite information as default unit when invalid unit is provided." time="0.001"/>
+  <testcase classname="Scenario: JSON response schema validation" name="When a get request with valid parameters" time="0"/>
+  <testcase classname="Scenario: JSON response schema validation" name="Then API returns valid json" time="0"/>
+  <testcase classname="Scenario: JSON response schema validation" name="Scenario: JSON response schema validation" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for more than ten timestamps" name="When a get request is sent to the API with more than ten timestamps" time="0"/>
+  <testcase classname="Scenario: Return the satellite data for more than ten timestamps" name="And response has error if parameter count is more than maximum length defined" time="0.005">
+    <failure message="The timestamps inputs more than 10 are not allowed" type="java.lang.AssertionError">java.lang.AssertionError: The timestamps inputs more than 10 are not allowed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefination.Position.test_028_http_response_has_error(Position.java:363)
+	at ✽.And response has error if parameter count is more than maximum length defined(positions.feature:102)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Return the satellite data for more than ten timestamps" name="Scenario: Return the satellite data for more than ten timestamps" time="0.006">
+    <failure message="The timestamps inputs more than 10 are not allowed" type="java.lang.AssertionError">java.lang.AssertionError: The timestamps inputs more than 10 are not allowed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefination.Position.test_028_http_response_has_error(Position.java:363)
+	at ✽.And response has error if parameter count is more than maximum length defined(positions.feature:102)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Return the TLE data in default format" name="Given a base uri to execute request" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format" name="When a get request is sent to the API with id &quot;25544&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format" name="Then HTTP return code is &quot;200&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format" name="And response content-type is &quot;application/json&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format" name="And response contains following fields" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format" name="Scenario: Return the TLE data in default format" time="0.001"/>
+  <testcase classname="Scenario: Return the TLE data in JSON format when JSON format is requested" name="When a get request is sent to the API with id &quot;25544&quot; and format &quot;json&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in JSON format when JSON format is requested" name="Then HTTP success status response code is &quot;200&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in JSON format when JSON format is requested" name="And the content-type is &quot;application/json&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in JSON format when JSON format is requested" name="And response contains following fields as output" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in JSON format when JSON format is requested" name="Scenario: Return the TLE data in JSON format when JSON format is requested" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in text format when text format is requested" name="When a get request is sent to the API with id &quot;25544&quot; and text format &quot;text&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in text format when text format is requested" name="Then HTTP response code returned is &quot;200&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in text format when text format is requested" name="And response content-type text is &quot;text/plain&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in text format when text format is requested" name="And response contains following output data" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in text format when text format is requested" name="Scenario: Return the TLE data in text format when text format is requested" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format when format provided is invalid" name="When a get request is sent to the API with invalid id &quot;25544&quot; and format &quot;invalid&quot;" time="0.001"/>
+  <testcase classname="Scenario: Return the TLE data in default format when format provided is invalid" name="Then HTTP success status response code returned &quot;200&quot;" time="0"/>
+  <testcase classname="Scenario: Return the TLE data in default format when format provided is invalid" name="And the content-type returned is &quot;application/json&quot;" time="0.001"/>
+  <testcase classname="Scenario: Return the TLE data in default format when format provided is invalid" name="And response has following output fields" time="0.001"/>
+  <testcase classname="Scenario: Return the TLE data in default format when format provided is invalid" name="Scenario: Return the TLE data in default format when format provided is invalid" time="0.001"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="When a get request is sent to the API with incorrect or invalid id &quot;87893&quot;" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="Then HTTP error code is reported &quot;404&quot;" time="0"/>
+  <testcase classname="Scenario: Return HTTP error 404 if id is not found." name="Scenario: Return HTTP error 404 if id is not found." time="0"/>
+  <testcase classname="Scenario: JSON response schema validation" name="When a valid get request is sent to the API with id &quot;25544&quot; and format &quot;json&quot;" time="0"/>
+  <testcase classname="Scenario: JSON response schema validation" name="Then API returns valid json file" time="0"/>
+  <testcase classname="Scenario: JSON response schema validation" name="Scenario: JSON response schema validation" time="0.001"/>
+</testsuite>
